@@ -2482,6 +2482,30 @@
 
 			}
 
+	.centeredimage {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+	}
+		.centeredimage .image {
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			border-radius: 0;
+			/*width: 40%;*/
+		}
+
+			.centeredimage .image img {
+				border-radius: 0;
+				width: 100%;
+			}
+
 /* Spotlight */
 
 	.spotlight {
