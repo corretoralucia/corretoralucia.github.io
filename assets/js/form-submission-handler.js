@@ -27,10 +27,23 @@ function getFormData() {
 function handleFormSubmit(event) {  // handles form submit withtout any jquery
   event.preventDefault();           // we are submitting via xhr below
   var data = getFormData();         // get the values submitted in the form
-  if( !validEmail(data.email) ) {   // if email is not valid show error
+  console.log("passei aqui")
+  if( !data.email && !data.phone) {   // if email is not valid show error
+    console.log("To no primeiro log")
+    // document.getElementById('email-invalid').style.display = 'block';
+    document.getElementById('email-phone-none').style.display = 'block';
+    document.getElementById('email-invalid').style.display = 'none';
+    return false;
+  }
+  else if(data.email && !validEmail(data.email)){
+    console.log("To no segundo log")
+    // document.getElementById('email-invalid').style.display = 'block';
+    document.getElementById('email-phone-none').style.display = 'none';
     document.getElementById('email-invalid').style.display = 'block';
     return false;
-  } else {
+  }
+   else {
+    console.log("To no terceiro log")
     var url = event.target.action;  //
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);

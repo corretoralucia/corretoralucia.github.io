@@ -52,21 +52,22 @@
 
 				<!-- One -->
 					<section id="one" class="wrapper style1 special">
+						<div class="centeredimage">
+						<div class="image">
+
 						<div class="inner">
 							<header class="major">
 								<h2> Promoção especial para o mês de Outubro
 								</h2>
 								<p>Somente no mês de Outubro temos taxa <span class=promotion_text>zero</span> nas parcelas mensais e semestrais
 								</p>
-							</br>
+							<!-- </br> -->
 								<p>
 									Apartamentos a partir de <span class=promotion_text>R$242.849,00</span> com parcelas a partir de <span class=promotion_text>R$990,00</span> mensais
 								 </p>
 							</header>
 
-							<div class="centeredimage">
-							<div class="image"><img src="images/taxazero.jpg" alt="Promoção Taxa Zero para o mês de outubro" /></div>
-							</div>
+							<img src="images/taxazero.jpg" alt="Promoção Taxa Zero para o mês de outubro" /></div>
 							<!-- <ul class="icons major">
 								<li><span class="icon fa-map-marker major style1"><span class="label"></span></span></li>
 							</ul> -->
@@ -76,6 +77,78 @@
 								</sub>
 							</p>
 						</div>
+
+							<div class="content">
+
+						<div class="inner">
+							<header class="major">
+								<h2>Preencha e saiba mais informações</h2>
+							</header>
+				       <!-- <p>
+								 use o formulário de contato abaixo para nos enviar uma mensagem
+				       </p> -->
+
+					   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+					  <form id="gform" method="POST" class="pure-form pure-form-stacked"
+					  action="https://script.google.com/macros/s/AKfycbxC6iPsJwr0ZTonpy3WHRnMmKvV_Q0IMW_4kzTry4iu6H9ydvo/exec">
+
+							<p>
+					    <fieldset >
+					      <label for="name">Nome: </label>
+					      <input id="name" name="name" type="text" placeholder="Digite seu nome" />
+					    </fieldset>
+						</p>
+							<p>
+
+					    <fieldset >
+					      <label for="message">Mensagem: </label>
+					      <textarea id="message" name="message" rows="4"
+					      placeholder="Digite qual informação gostaria de receber"></textarea>
+					    </fieldset>
+						</p>
+
+							<p>
+
+					    <fieldset >
+					      <label for="phone">Telefone: </label>
+					      <input id="phone" name="phone" type="text" placeholder="Digite seu telefone" />
+					    </fieldset>
+						</p>
+
+							<p>
+
+					    <fieldset >
+					      <label for="email"> Email:</label>
+					      <input id="email" name="email" type="email" value=""
+					      placeholder="Digite seu email"/>
+							</br>
+					      <span id="email-phone-none" style="display:none" class="promotion_text">
+					        Preencha ao menos o email ou o telefone</span>
+					      <span id="email-invalid" style="display:none" class="promotion_text">
+					        Email inválido</span>
+					    </fieldset>
+						</p>
+
+					    <button class="button">
+					      <i class="fa fa-paper-plane"></i>&nbsp;Enviar</button>
+
+					  </form>
+
+					  <div style="display:none;" id="thankyou_message">
+					    <h2>Obrigado por nos contactar. </h2>
+					      <h2>Retornaremos seu contato em breve</h2>
+					  </div>
+
+					  <!-- Submit the Form to Google Using "AJAX" -->
+					  <script data-cfasync="false" type="text/javascript"
+					  src="assets/js/form-submission-handler.js"></script>
+						</div>
+
+
+
+							</div>
+					</div>
 					</section>
 
           <!-- half -->
@@ -266,7 +339,7 @@
 
 
           <!-- contact -->
-					<section id="contact" class="wrapper style6 special">
+					<!-- <section id="contact" class="wrapper style6 special">
 						<div class="inner">
 							<header class="major">
 								<h2>Preencha e saiba mais informações</h2>
@@ -325,12 +398,12 @@
 					      <h2>Retornaremos seu contato em breve</h2>
 					  </div>
 
-					  <!-- Submit the Form to Google Using "AJAX" -->
+					  Submit the Form to Google Using "AJAX"
 					  <script data-cfasync="false" type="text/javascript"
 					  src="assets/js/form-submission-handler.js"></script>
 						</div>
 
-					</section>
+					</section> -->
 
 				<!-- Footer -->
 					<footer id="footer">

@@ -2498,13 +2498,24 @@
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			/*width: 40%;*/
+			width: 60%;
+			padding: 0em 2em 0em 2em ;
 		}
 
 			.centeredimage .image img {
 				border-radius: 0;
 				width: 100%;
 			}
+
+		.centeredimage .content {
+			padding: 2em 4em 0em 4em ;
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
+			max-width: 48em;
+			width: 40%;
+		}
 
 /* Spotlight */
 
@@ -2611,6 +2622,13 @@
 			.spotlight .content {
 				width: 55%;
 			}
+			.centeredimage .image {
+				width: 55%;
+			}
+
+			.centeredimage .content {
+				width: 45%;
+			}
 
 		}
 
@@ -2635,11 +2653,33 @@
 					width: 100%;
 				}
 
+			.centeredimage {
+				display: block;
+			}
+
+				.centeredimage br {
+					display: none;
+				}
+
+				.centeredimage .image {
+					width: 100%;
+				}
+
+				.centeredimage .content {
+					padding: 4em 3em 2em 3em ;
+					max-width: none;
+					text-align: center;
+					width: 100%;
+				}
+
 		}
 
 		@media screen and (max-width: 736px) {
 
 			.spotlight .content {
+				padding: 3em 2em 1em 2em ;
+			}
+			.centeredimage .content {
 				padding: 3em 2em 1em 2em ;
 			}
 
