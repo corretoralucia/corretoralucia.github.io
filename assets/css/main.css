@@ -3644,6 +3644,12 @@
 		text-align: center;
 	}
 
+		#banner #main-email {
+			font-size: 0.7em;
+		}
+		#four #footer-email {
+			font-size: 0.7em;
+		}
 		#banner h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
