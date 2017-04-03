@@ -2506,6 +2506,10 @@
 				border-radius: 0;
 				width: 100%;
 			}
+			#promoimage {
+				border-radius: 0;
+				width: 100%;
+			}
 
 		.centeredimage .content {
 			padding: 2em 4em 0em 4em ;
