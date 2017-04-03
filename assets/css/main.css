@@ -18,6 +18,10 @@
 		vertical-align: baseline;
 	}
 
+.no-link {
+    border-bottom-color: transparent;
+}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1500,7 +1504,7 @@
 		}
 
 	h3 {
-		font-size: 1.15em;
+		font-size: 1.35em;
 		line-height: 1.75em;
 	}
 
@@ -1923,6 +1927,10 @@
 
 		.icon.style1 {
 			color: tomato;
+		}
+
+		.icon.style-header {
+			color: white;
 		}
 
 		.icon.style2 {
@@ -2481,7 +2489,6 @@
 					}
 
 			}
-
 	.centeredimage {
 		-moz-align-items: center;
 		-webkit-align-items: center;
