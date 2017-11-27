@@ -4095,3 +4095,11 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+  .corretora-image {
+    position: absolute;
+    width: 20vw;
+    left: 0vw;
+    top: 0vw;
+  }
+
